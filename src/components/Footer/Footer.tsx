@@ -9,7 +9,7 @@ import { RiLinkedinLine } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-      <div className=" py-10 px-[4rem]  bg-black text-white flex justify-center gap-[6rem] max-sm:flex-col max-sm:px-[2rem] max-sm:gap-[3rem] max-sm:py-4  ">
+      <div className=" py-10 px-[4rem]  bg-black text-white flex justify-center gap-[6rem] max-sm:flex-col max-sm:px-[2rem] max-sm:gap-[3rem] max-sm:py-4 max-lg:gap-[1.7rem] ">
         <div className=" flex flex-col gap-3">
           <h1>Exclusive</h1>
           <h2>Subscribe</h2>
@@ -45,7 +45,7 @@ const Footer = () => {
           <p>+88015-88888-9999</p>
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 max-lg:hidden max-xl:hidden">
           <h1>Account</h1>
           <Link href="">My Account</Link>
           <Link href="" className="text-nowrap">

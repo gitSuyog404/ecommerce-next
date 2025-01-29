@@ -9,8 +9,8 @@ import { RiLinkedinLine } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-      <div className=" py-10 px-[4rem]  bg-black text-white flex justify-center gap-[6rem] max-sm:flex-col max-sm:px-[2rem] max-sm:gap-[3rem] max-sm:py-4  ">
-        <div className=" flex flex-col gap-3">
+      <div className=" py-10 px-[4rem]  bg-black text-white flex justify-center gap-[6rem] max-sm:flex-col max-sm:px-[2rem] max-sm:gap-[3rem] max-sm:py-4    ">
+        <div className=" flex flex-col gap-3 ">
           <h1>Exclusive</h1>
           <h2>Subscribe</h2>
           <p className="text-sm">Get 10% off your first order</p>
@@ -56,54 +56,61 @@ const Footer = () => {
           <Link href="">Shop</Link>
         </div>
 
-        <div className="flex flex-col gap-3">
-          <h1 className="">Quick Link</h1>
-          <Link href="" className="text-nowrap">
-            Privacy Policy
-          </Link>
-          <Link href="">Terms Of Use</Link>
-          <Link href="">FAQ</Link>
-          <Link href="">Contact</Link>
-        </div>
-
-        <div className="flex flex-col gap-3">
-          <h1>Download App</h1>
-          <p className="text-gray-300 ">Save $3 with App New User Only</p>
-          <div className="flex gap-2">
-            <Image src="/qrcode.png" alt="qr code img" height={80} width={80} />
-            <div className="flex flex-col gap-3">
-              <Image
-                src="/google-play.png"
-                alt="play store img"
-                height={100}
-                width={120}
-              />
-
-              <Image
-                src="/app-store.png"
-                alt="play store img"
-                height={100}
-                width={120}
-              />
-            </div>
+        <div className="flex gap-[15rem] ">
+          <div className="flex flex-col gap-3 ">
+            <h1 className="">Quick Link</h1>
+            <Link href="" className="text-nowrap">
+              Privacy Policy
+            </Link>
+            <Link href="">Terms Of Use</Link>
+            <Link href="">FAQ</Link>
+            <Link href="">Contact</Link>
           </div>
 
-          <div className=" mt-3 flex gap-[2.1rem]">
-            <Link href="">
-              <FaFacebookF className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-blue-500" />
-            </Link>
+          <div className="flex flex-col gap-3">
+            <h1>Download App</h1>
+            <p className="text-gray-300 ">Save $3 with App New User Only</p>
+            <div className="flex  gap-2">
+              <Image
+                src="/qrcode.png"
+                alt="qr code img"
+                height={80}
+                width={80}
+              />
+              <div className="flex flex-col gap-3">
+                <Image
+                  src="/google-play.png"
+                  alt="play store img"
+                  height={100}
+                  width={120}
+                />
 
-            <Link href="">
-              <FaTwitter className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-blue-500" />
-            </Link>
+                <Image
+                  src="/app-store.png"
+                  alt="play store img"
+                  height={100}
+                  width={120}
+                />
+              </div>
+            </div>
 
-            <Link href="">
-              <FaInstagram className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-pink-600" />
-            </Link>
+            <div className=" mt-3 flex  gap-[2.1rem]">
+              <Link href="">
+                <FaFacebookF className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-blue-500" />
+              </Link>
 
-            <Link href="">
-              <RiLinkedinLine className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-blue-500" />
-            </Link>
+              <Link href="">
+                <FaTwitter className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-blue-500" />
+              </Link>
+
+              <Link href="">
+                <FaInstagram className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-pink-600" />
+              </Link>
+
+              <Link href="">
+                <RiLinkedinLine className="size-5 transition-transform duration-200 hover:scale-110 ease-in-out hover:fill-blue-500" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>

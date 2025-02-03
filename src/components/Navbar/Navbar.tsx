@@ -61,7 +61,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="What are you looking for?"
-              className="px-6 py-2 rounded-sm bg-[#F5F5F5]"
+              className="px-6 py-2 rounded-sm bg-[#F5F5F5] outline-none"
             />
             <IoSearchOutline className="relative right-6  size-5 transition-transform duration-200 hover:scale-110 cursor-pointer ease-in-out    " />
           </div>
@@ -135,7 +135,7 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="What are you looking for?"
-                className="px-6 py-2 rounded-sm bg-[#F5F5F5]"
+                className="px-6 py-2 rounded-sm bg-[#F5F5F5] outline-none"
               />
               <IoSearchOutline className="relative right-6  size-5 transition-transform duration-200 hover:scale-110 cursor-pointer ease-in-out    " />
             </div>

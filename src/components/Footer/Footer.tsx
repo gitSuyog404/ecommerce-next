@@ -70,21 +70,27 @@ const Footer = () => {
           <h1>Download App</h1>
           <p className="text-gray-300 ">Save $3 with App New User Only</p>
           <div className="flex  gap-2">
-            <Image src="/qrcode.png" alt="qr code img" height={80} width={80} />
+            <div className="relative w-[80px] h-[90px]">
+              <Image src="/qrcode.png" alt="qr code img" fill sizes="80px" />
+            </div>
             <div className="flex flex-col gap-3">
-              <Image
-                src="/google-play.png"
-                alt="play store img"
-                height={100}
-                width={120}
-              />
+              <div className="relative w-[120px] h-[40px]">
+                <Image
+                  src="/google-play.png"
+                  alt="play store img"
+                  fill
+                  sizes="120px"
+                />
+              </div>
 
-              <Image
-                src="/app-store.png"
-                alt="play store img"
-                height={100}
-                width={120}
-              />
+              <div className="relative w-[120px] h-[40px]">
+                <Image
+                  src="/app-store.png"
+                  alt="play store img"
+                  fill
+                  sizes="120px"
+                />
+              </div>
             </div>
           </div>
 
